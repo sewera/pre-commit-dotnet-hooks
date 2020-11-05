@@ -1,0 +1,6 @@
+- id: dotnet-reformat
+  name: dotnet-reformat
+  description: Relies on csproj files and dotnet-format tool, csproj or sln files as args
+  entry: dotnet dotnet-format -p
+  language: dotnet
+  files: '\.cs'
