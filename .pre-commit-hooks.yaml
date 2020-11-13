@@ -4,4 +4,3 @@
   entry: dotnet dotnet-format
   pass_filenames: false
   language: system
-  files: '\.cs'
